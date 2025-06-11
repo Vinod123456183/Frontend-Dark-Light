@@ -93,5 +93,24 @@ npm run build
 
 --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---  
 
+
+
+
+
+
+# IF SIZE OF THE FILE IS VERY LARGER --
+
+```
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[functions]
+  directory = "netlify/functions"
+
+```
+
+
+
 ✅ You're now ready to deploy your Vite + React app to **Netlify** without the white screen issue!  
 Happy coding! 🚀
