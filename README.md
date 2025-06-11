@@ -2,6 +2,7 @@
 # ⚛️ React + Vite Project
 
 ## 🔄 Update All Dependencies to Latest
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
 
 ### 🛠 Step 1 – Upgrade All Packages:
 ```bash
@@ -17,8 +18,12 @@ npm uninstall tailwindcss
 ```bash
 npm install -D tailwindcss@3.4.7
 ```
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
 
----
+ 
+
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+
 
 # 🌐 Deployment Process on Netlify
 
@@ -45,7 +50,48 @@ npm run build
 Frontend/dist
 ```
 
+
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+
+
+
+
+
+
+
+
+
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+
+# 🌐 Deployment Process on Netlify With No Directory
+
+### 🧭 Step 1 – Set Base Directory:
+📁 **Base directory**:
+```bash
+(Leave Blank)
+```
+> ⚠️ If your frontend folder is named something else, use that name instead.
+
 ---
+
+### 🔧 Step 2 – Set Build Command:
+🏗 **Build command**:
+```bash
+npm run build
+```
+
+---
+
+### 📤 Step 3 – Set Publish Directory:
+📂 **Publish directory**:
+```bash
+ dist
+```
+
+
+
+
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---  
 
 ✅ You're now ready to deploy your Vite + React app to **Netlify** without the white screen issue!  
 Happy coding! 🚀
