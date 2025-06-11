@@ -100,6 +100,8 @@ npm run build
 
 # IF SIZE OF THE FILE IS VERY LARGER --
 
+## ADD IN netlify.toml 
+
 ```
 [build]
   publish = "dist"
